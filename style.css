@@ -1,15 +1,22 @@
 span {
     display: block;
+    width: 250px;
+    text-align: left;
 }
 
 .bottom > span {
     padding: 10px;
+    width: 150px;
+    text-align: center;
 }
 
 
 img {
-    width: 227px;
-    height: 337px;
+    height: 360px;
+    width: 250px;
 }
 
+button {
+    width: 100px;
+}
 
