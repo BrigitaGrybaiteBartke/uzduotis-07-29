@@ -1,0 +1,18 @@
+
+Užsiregistruokite OMDB API puslapyje, kuriame jums bus išduodamas API raktas:
+https://www.omdbapi.com/apikey.aspx
+
+Šis API raktas yra skirtas limituoti užklausų skaičių iki 1000 per dieną (keep that in mind).
+API kreipimosi adresas:
+http://www.omdbapi.com/?apikey=JUSU_API_RAKTAS&s=Batman&page=1
+
+Jums grąžinama dešimties filmų arba serialų apie betmeną informacija.
+Atvaizduokite naršyklėje Filmo plakatą, pavadinimą, išleidimo metus ir tipą (filmas, serialas).
+Taip pat grąžinamame objekte gausite visų įrašų kiekį patalpintą indeksu "totalResults".
+Pasinaudodami šia informacija sukurkite navigaciją leidžiančią keliauti į sekantį puslapį ir ankstesnį puslapį.
+Puslapis nurodomas API adrese keičiant parametro "page" reikšmę.
+Jeigu esamas puslapis yra 1 blokuokite mygtuką "Ankstesnis".
+Apskaičiuokite kuris puslapis bus paskutinis ir taip pat neleiskite paspausti ant mygtuko "Sekantis", jeigu esamas puslapis yra paskutinis.
+
+Veikiantis pavyzdys:
+https://viliusramulionis.github.io/react-test-application/

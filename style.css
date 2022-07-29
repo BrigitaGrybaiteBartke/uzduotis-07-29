@@ -1,0 +1,15 @@
+span {
+    display: block;
+}
+
+.bottom > span {
+    padding: 10px;
+}
+
+
+img {
+    width: 227px;
+    height: 337px;
+}
+
+
