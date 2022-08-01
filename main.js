@@ -47,7 +47,7 @@
                 showData()
              } 
              if (page === 1) {
-                first.classList.remove('btn-primary')
+                first.classList.remove('btn-secondary')
                 first.disabled = true
             }
         })
@@ -58,10 +58,10 @@
             
             if(page > 1) {
                 first.disabled = false
-                first.classList.add('btn-primary')
+                first.classList.add('btn-secondary')
             }
             if(page === 52) {
                 second.disabled = true
-                second.classList.remove('btn-primary')
+                second.classList.remove('btn-secondary')
             }
         })
